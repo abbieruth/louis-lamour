@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const PORT = 8000;
+// This will let people use the api server side so they won't get CORS errors
+app.use(cors());
 
 let titles = [
     // The Collected Short Stories of Louis L'Amour, Volume 1
