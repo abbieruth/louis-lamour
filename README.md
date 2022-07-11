@@ -8,8 +8,7 @@ Try it here: https://louis-lamour-api.herokuapp.com/
 
 # How It's Made:
 Tech used:
-HTML, JavaScript
-Hosted on Heroku
+HTML, JavaScript, Heroku
 
 # Lessons Learned:
 CRUD, node.js, Heroku
