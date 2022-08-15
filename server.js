@@ -2319,6 +2319,26 @@ app.get('/api/:bookName', (request, response) => {
     }
 })
 
+// app.get('/api/all', (request, response) => {
+//     let allTitles = [];
+//     let list = document.createElement('ul');
+
+//     for (let i = 0; i < shortTitles.length; i++) {
+//         allTitles.push(i);
+//     }
+//     for (let j = 0; j < novelTitles.length; j++) {
+//         allTitles.push(j);
+//     }
+
+//     for (let k = 0; k < allTitles.length; k++) {
+//         let item = document.createElement('li');
+//         item.innerHTML = k;
+//         list.appendChild(item);
+//     }
+//     console.log(allTitles);
+
+// })
+
 app.listen(process.env.PORT || PORT, () => {
     console.log(`Server is running on port ${PORT}.`)
 })
