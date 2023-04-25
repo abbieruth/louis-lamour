@@ -1,3 +1,5 @@
+// Need to upgrade Heroku stack! Read full page before starting! 
+// https://devcenter.heroku.com/articles/upgrading-to-the-latest-stack
 const express = require('express');
 const app = express();
 const cors = require('cors');
